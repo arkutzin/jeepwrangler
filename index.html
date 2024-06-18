@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeep Wrangler</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -15,8 +16,8 @@
                 <img src="assets/logo_jeep.png" alt="Logo Jeep">
             </div>
             <menu>
-                <a href="">Início</a>
-                <a href="">Galeria</a>
+                <a href="início">Início</a>
+                <a href="Galeria">Galeria</a>
                 <a href="">Cores</a>
                 <a href="">Contato</a>
             </menu>
@@ -36,30 +37,30 @@
             <div class="galeria">
                 <h2>galeria <span> de fotos</span></h2>
                 <div class="thumbs">
-                    <div class="thumb">
+                    <div class="thumb" onclick="trocaimag('jeep-wrangler-bloqueador-diferencial-desk.webp')">
                         <img src="assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="">
                     </div>
-                    <div class="thumb">
+                    <div class="thumb" onclick="trocaimag('RUBICON-trail-rated-mobile.webp')">
                         <img src="assets/RUBICON-trail-rated-mobile.webp" alt="">
                     </div>
-                    <div class="thumb">
+                    <div class="thumb" onclick="trocaimag('Jeep-wrangler-barra-estabilizadora-desk.webp')">
                         <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
                     </div>
-                    <div class="thumb">
+                    <div class="thumb" onclick="trocaimag('jeep-rubicon-red.webp')">
                         <img src="assets/jeep-rubicon-red.webp" alt="">
                     </div>
-                    <div class="thumb">
+                    <div class="thumb" onclick="trocaimag('jeep-wrangler-rubicon-gray.webp')">
                         <img src="assets/jeep-wrangler-rubicon-gray.webp" alt="">
                     </div>
-                    <div class="thumb">
+                    <div class="thumb" onclick="trocaimag('jeep-wrangler-white.webp')">
                         <img src="assets/jeep-wrangler-white.webp" alt="">
                     </div>
                 </div>
                 <div class="large">
                     <div class="img-large">
-                        <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
+                        <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="" id="fotogrande">
                     </div>
-                    <p>texto descritivo</p>
+                    <p id="desc">texto descritivo</p>
                 </div>
             </div>
         </section>
